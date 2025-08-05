@@ -10,7 +10,7 @@ const ratioSelect = document.getElementById("ratio-select");
 
 const gridGallery = document.querySelector(".gallery-grid");
 
-const API_KEY = "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"; // HuggingFace API key
+const API_KEY = "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"; // HuggingFace API key
 
 const examplePrompts = [
   "A magic forest with glowing plants and fairy homes among giant mushrooms",
@@ -180,3 +180,4 @@ promptBtn.addEventListener("click", () => {
 
 promptForm.addEventListener("submit", handleFormSubmit);
 themeToggle.addEventListener("click", toggleTheme);
+
